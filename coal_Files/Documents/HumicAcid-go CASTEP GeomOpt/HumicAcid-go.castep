@@ -1,0 +1,122 @@
+ Job started on host KINGEN-PC
+ at Thu Apr  1 13:13:06 2021
+
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Materials Studio CASTEP version 2018            |
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ | T. Green, I. J. Bush, C. J. Armstrong,          |
+ | E. J. Higgins, E. L. Brown, M. S. McFly,        |
+ | J. Wilkins, B-C. Shih, P. J. P. Byrne           |
+ |                                                 |
+ | Copyright (c) 2000 - 2017                       |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ This version was compiled for x86_64-windows-msvc2013 on Nov 21 2017
+ Code version: 7435
+ Intel(R) Math Kernel Library Version 11.3.1 
+ Fundamental constants values: CODATA 2014
+ 
+License checkout of MS_castep successful
+ 
+ +---------------------------------------------------+
+ |                                                   |
+ |  Using DFT-SEDC - the DFT Semi-Empirical          |
+ |  Dispersion interaction Correction module         |
+ |  Copyright (c) 2008 Erik McNellis and Joerg Meyer |
+ |  Fritz-Haber-Institut der MPG. Distributed under  |
+ |  the GNU Lesser General Public License (LGPL).    |
+ |                                                   |
+ | Please cite the following publications in all     |
+ | work arising from your use of CASTEP SEDC.        |
+ |                                                   |
+ | Erik R. McNellis, Joerg Meyer, and Karsten Reuter |
+ | Phys. Rev. B 80, 205414 (2009)                    |
+ +---------------------------------------------------+
+ 
+ 
+ Pseudo atomic calculation performed for H 1s1
+ 
+ Converged in 13 iterations to a total energy of -12.4601 eV
+ 
+ 
+ Pseudo atomic calculation performed for C 2s2 2p2
+ 
+ Converged in 17 iterations to a total energy of -145.7942 eV
+ 
+ 
+ Pseudo atomic calculation performed for N 2s2 2p3
+ 
+ Converged in 21 iterations to a total energy of -262.6887 eV
+ 
+ 
+ Pseudo atomic calculation performed for O 2s2 2p4
+ 
+ Converged in 23 iterations to a total energy of -429.2137 eV
+ 
+************************************************************************
+   The memory required for this calculation exceeds machine capacity.
+
+           Unable to continue. Run will be ABORTED.
+
+    Suggestions: 
+      Check the run setup is reasonable; in particular cell dimensions,
+      number of atoms, plane wave cutoff all affect memory consumption.
+
+      Investigate the parameters "opt_strategy"/"opt_strategy_bias" and
+      "page_wvfns" which may be used to reduce memory requirements.
+
+      If the calculation is being run on a distributed memory computer
+      consider increasing the number of processors.
+
+      It may be necessary to run this calculation on another computer
+      with more RAM or upgrade the physical RAM on the current system.
+************************************************************************
+
+Information for developers:
+ALLOCATE request failed for array "temp_coeffs" in routine "wave_beta_phi_wv_ks"
+Current trace stack:
+ wave_beta_phi_wv_ks
+ wave_calc_Soverlap_wv_ks
+ wave_Sorthonormalise_wv_ks
+ wave_Sorthonormalise_wv
+ wave_initialise_wv
+ model_initialise
+ castep
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

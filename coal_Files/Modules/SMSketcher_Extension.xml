@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="latin1"?>
+<EXTENSION VERSION="18.1">
+<LOGICS>
+<LOGICITEM NAME="AtomSketcher">
+	<STATE NAME="SMSketcher.AtomSketcher" VERSION="18.1">
+	<PROPERTIES>
+	<PROPERTY NAME="SketchAtom">
+	<VALUE>O</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Bond Type">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Sketch Counter">
+	<VALUE>15</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>
